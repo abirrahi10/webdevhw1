@@ -1,0 +1,35 @@
+h2, h3 {
+    color: red
+}
+
+img.mimi {
+    position: absolute;
+    left: 600px;
+}
+
+.exp {
+    display: inline-block; 
+}
+
+#catmouse {
+    float: right;
+    border: 5px solid red;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.skills {
+    display:flex;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.other {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
